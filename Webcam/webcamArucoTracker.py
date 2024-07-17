@@ -62,12 +62,12 @@ def arucoMarkerDetection(cameraMatrix, distCoeffs):
                 cv2.putText(frame, f"ID: {markerIds[i][0]}", (centerX - 10, centerY - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
 
                 distance = np.linalg.norm(tvec)
-                cv2.putText(frame, f"Distance: {distance:.2f}m", (centerX - 10, centerY + 20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 255), 2)
+                cv2.putText(frame, f"Distance: {distance:.2f}m", (centerX - 10, centerY + 20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 165, 255), 2)
 
                 yaw, pitch, roll = getEulerAngles(rvec[0])
-                cv2.putText(frame, f"Yaw: {yaw:.2f}", (centerX - 10, centerY + 40), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 255), 2)
-                cv2.putText(frame, f"Pitch: {pitch:.2f}", (centerX - 10, centerY + 60), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 255), 2)
-                cv2.putText(frame, f"Roll: {roll:.2f}", (centerX - 10, centerY + 80), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 255), 2)
+                cv2.putText(frame, f"Yaw: {yaw:.2f}", (centerX - 10, centerY + 40), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 165, 255), 2)
+                cv2.putText(frame, f"Pitch: {pitch:.2f}", (centerX - 10, centerY + 60), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 165, 255), 2)
+                cv2.putText(frame, f"Roll: {roll:.2f}", (centerX - 10, centerY + 80), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 165, 255), 2)
 
                 frameCenterX, frameCenterY = frame.shape[1] // 2, frame.shape[0] // 2
                 moveText = ""

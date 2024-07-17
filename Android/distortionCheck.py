@@ -45,7 +45,7 @@ def displayImagesWithPause(images, cameraMatrix, distCoeffs):
     cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    images = glob.glob('calibration_images_from_phone/*.png')  # Change path to your image directory
+    images = glob.glob('WRITE YOUR IMAGE DIRECTORY')  # Change path to your image directory
 
     # Load the calibration data
     with np.load('cameraCalibration.npz') as data:

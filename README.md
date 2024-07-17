@@ -105,7 +105,7 @@ Your webcam should turn on and display in the frame size that you select. In my 
      2. Make sure the phone is on and run **`python phoneTestCam.py`**.
 
      <img width="500" alt="image" src="https://github.com/user-attachments/assets/aed37239-c07e-49d1-a276-d07b5bbe4cf2">
-     
+
      Your laptop should now be actively streaming the view from your Android device.
 
 8. Calibration Photos:
@@ -142,6 +142,15 @@ There are a couple of challenging encounters I faced during this process, which 
 2. Make sure that any changes you make to the chessboard configuration are updated throughout the project files. That way, your calibration or estimations are not skewed by user error.
 3. If you are very satisfied with an accurate read from your ArUco tracker, make sure you don't run calibration again unless you save your matrix and distortion values somewhere else. The .npz file will be overwritten, and your important calibration data can be lost.
 4. I configured this to work on my 2022 Razer Blade 15, which is running Windows 11. If you are running a different operating system, your access to the webcam might change.
+
+## **Distortion Check** ##
+If you were wondering in both  **`Android`** and  **`Webcam`** folders there is a file named **`distortionCheck.py`**. In this file, it will compare distorted vs undistorted images to demonstrate how well your calibration works. I will provide the instructions on how to use it. For ease of use I will just provide the instruction for **`Webcam`**, however both codes work exactly the same.
+
+1. At this point you should already have performed steps 1-9 to completion if you want to check the distortion properly. This means that there should be a generated **`cameraCalibration.npz`** that was generated off of an image directory. Assuming this has been done we can proceed to the next step.
+2. Navigate to **`distortionCheck.py`**
+3. Change line 34 to include your image directory to reference.
+4. Run **`python distortionCheck.py`**
+5. Compare all the images - you must click through all images to exit the window and end the code.
 
 ## **Issues** ##
 There is a lot of copied code among the three calibration folders, as this file could be compressed to provide a more streamlined testing approach. I did this by design to ensure that the .NPZ files or image directories didn't overlap with one another while I was debugging estimation and orientation flaws between the three tried methods. I can address this later if it becomes a problem.

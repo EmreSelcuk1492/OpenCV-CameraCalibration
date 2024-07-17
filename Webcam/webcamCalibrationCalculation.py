@@ -73,7 +73,7 @@ def main(imageDirectory, patternSize, squareSize):
     print(f"Average reprojection error: {reprojectionErrorAvg:.6f} +/- {reprojectionErrorStddev:.6f}")
 
 if __name__ == '__main__':
-    imageDirectory = 'calibration_images_20240717-110806'  # Replace with your image directory
+    imageDirectory = 'calibration_images_20240717-154318'  # Replace with your image directory
     patternSize = (9, 6)  # Number of inner corners per row and column
     squareSize = 0.025  # Square size in meters (25 mm)
 
