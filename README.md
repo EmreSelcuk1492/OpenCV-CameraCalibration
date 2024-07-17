@@ -1,4 +1,4 @@
-# **OpenCV Camera Calibration**
+<img width="1270" alt="exampleDist 1" src="https://github.com/user-attachments/assets/f4b1a8af-03cc-4d77-bd83-cb28c8c2d985"># **OpenCV Camera Calibration**
 
 In this project, I will guide you on how to calibrate your camera using OpenCV tools. This repository is set up to enable the calibration of your webcam or an Android phone that uses an IP camera application to stream its camera.
 
@@ -151,6 +151,13 @@ If you were wondering in both  **`Android`** and  **`Webcam`** folders there is 
 3. Change line 34 to include your image directory to reference.
 4. Run **`python distortionCheck.py`**
 5. Compare all the images - you must click through all images to exit the window and end the code.
+
+   
+   [Uploading exampleDist 1.png…]()
+
+
+   Check for straight lines in the edges of the camera, normally on the left side you will see these warped edges.
+
 
 ## **Issues** ##
 There is a lot of copied code among the three calibration folders, as this file could be compressed to provide a more streamlined testing approach. I did this by design to ensure that the .NPZ files or image directories didn't overlap with one another while I was debugging estimation and orientation flaws between the three tried methods. I can address this later if it becomes a problem.
