@@ -27,7 +27,7 @@ def getEulerAngles(rvec):
 def arucoMarkerDetection(cameraMatrix, distCoeffs):
     arucoDict = aruco.getPredefinedDictionary(aruco.DICT_6X6_250)
     parameters = aruco.DetectorParameters()
-    markerLength = 0.2  # Marker side length in meters (25 mm)
+    markerLength = 0.2  # Marker side length in meters (20cm)
 
     cap = cv2.VideoCapture(0)
     if not cap.isOpened():

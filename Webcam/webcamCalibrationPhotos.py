@@ -3,7 +3,7 @@ import os
 import time
 
 def captureCalibrationImages():
-    chessboardSize = (9, 6)  # Number of inner corners per a chessboard row and column
+    chessboardSize = (9, 6)  # Determine the number of inner-corners you will scan for on the printed chessboard
     # Create a directory with a timestamp for saving calibration images
     timestamp = time.strftime("%Y%m%d-%H%M%S")
     outputDir = f'calibration_images_{timestamp}'

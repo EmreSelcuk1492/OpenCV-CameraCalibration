@@ -22,7 +22,7 @@ columns = 11
 squareSize = 40 # 25mm
 
 checkerboard = createCheckerboard(boardWidth, boardHeight, rows, columns, squareSize)
-cv2.imwrite('checkerboard.png', checkerboard)
-cv2.imshow('Checkerboard', checkerboard)
+cv2.imwrite('chessboard.png', checkerboard)
+cv2.imshow('chessboard', checkerboard)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
