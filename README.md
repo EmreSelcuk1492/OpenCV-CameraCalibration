@@ -152,8 +152,8 @@ If you were wondering in both  **`Android`** and  **`Webcam`** folders there is 
 4. Run **`python distortionCheck.py`**
 5. Compare all the images - you must click through all images to exit the window and end the code.
 
-   
-   [Uploading exampleDist 1.png…]()
+
+   <img width="1270" alt="exampleDist 1" src="https://github.com/user-attachments/assets/5efafefe-4cb9-4033-bbef-7438aec40841">
 
 
    Check for straight lines in the edges of the camera, normally on the left side you will see these warped edges.
@@ -185,11 +185,7 @@ OpenCV-CameraCalibration is released under the MIT License. See the **[LICENSE](
 
 OpenCV-CameraCalibration was created by **[EmreSelcuk1402](https://github.com/username)**.
 
-Thank you to all the contributors for their hard work and dedication to the project. Please refer to my references earlier in case you didn't get a chance. The content was immensely helpful for me to understand OpenCV and the calibration process.
-
-## **Code of Conduct**
-
-Please note that this project is released with a Contributor Code of Conduct. By participating in this project, you agree to abide by its terms. See the **[CODE_OF_CONDUCT.md](https://www.blackbox.ai/share/CODE_OF_CONDUCT.md)** file for more information.
+Please refer to my references earlier in case you didn't get a chance. The content was immensely helpful for me to understand OpenCV and the calibration process.
 
 
 ## **Contact**
