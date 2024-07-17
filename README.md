@@ -146,11 +146,11 @@ There are a couple of challenging encounters I faced during this process, which 
 ## **Distortion Check** ##
 If you were wondering in both  **`Android`** and  **`Webcam`** folders there is a file named **`distortionCheck.py`**. In this file, it will compare distorted vs undistorted images to demonstrate how well your calibration works. I will provide the instructions on how to use it. For ease of use I will just provide the instruction for **`Webcam`**, however both codes work exactly the same.
 
-1. At this point you should already have performed steps 1-9 to completion if you want to check the distortion properly. This means that there should be a generated **`cameraCalibration.npz`** that was generated off of an image directory. Assuming this has been done we can proceed to the next step.
-2. Navigate to **`distortionCheck.py`**
-3. Change line 34 to include your image directory to reference.
-4. Run **`python distortionCheck.py`**
-5. Compare all the images - you must click through all images to exit the window and end the code.
+   1. At this point you should already have performed steps 1-9 to completion if you want to check the distortion properly. This means that there should be a generated **`cameraCalibration.npz`** that was generated off of an image directory. Assuming this has been done we can proceed to the next step.
+   2. Navigate to **`distortionCheck.py`**
+   3. Change line 34 to include your image directory to reference.
+   4. Run **`python distortionCheck.py`**
+   5. Compare all the images - you must click through all images to exit the window and end the code.
 
 
    <img width="1270" alt="exampleDist 1" src="https://github.com/user-attachments/assets/5efafefe-4cb9-4033-bbef-7438aec40841">
