@@ -1,4 +1,4 @@
-<img width="1270" alt="exampleDist 1" src="https://github.com/user-attachments/assets/f4b1a8af-03cc-4d77-bd83-cb28c8c2d985"># **OpenCV Camera Calibration**
+## **OpenCV Camera Calibration**
 
 In this project, I will guide you on how to calibrate your camera using OpenCV tools. This repository is set up to enable the calibration of your webcam or an Android phone that uses an IP camera application to stream its camera.
 
