@@ -4,8 +4,6 @@ import time
 
 def captureCalibrationImages():
     chessboardSize = (9, 6)  # Number of inner corners per a chessboard row and column
-    squareSize = 25  # Square size in mm (for display purposes)
-
     # Create a directory with a timestamp for saving calibration images
     timestamp = time.strftime("%Y%m%d-%H%M%S")
     outputDir = f'calibration_images_{timestamp}'
