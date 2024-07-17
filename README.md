@@ -1,6 +1,11 @@
 ## **OpenCV Camera Calibration**
 
 In this project, I will guide you on how to calibrate your camera using OpenCV tools. This repository is set up to enable the calibration of your webcam or an Android phone that uses an IP camera application to stream its camera.
+## **Development** ##
+
+This project was developed at Z-Sistem in Ankara, Turkiye during my current internship.
+## *[Z-sistem](https://www.z-sistem.com/zs/) UAV TECHNOLOGIES*
+![image](https://github.com/user-attachments/assets/15d26e1f-4270-460e-96a8-cea0dd43fa22)
 
 ## **Introduction**
 
@@ -184,6 +189,10 @@ OpenCV-CameraCalibration is released under the MIT License. See the **[LICENSE](
 ## **Authors and Acknowledgment**
 
 OpenCV-CameraCalibration was created by **[EmreSelcuk1402](https://github.com/username)**.
+
+Another special thanks to Z-sistem for the resource support and knowledge.
+![image](https://github.com/user-attachments/assets/569f5931-6cbc-4ed5-b8aa-d45aa9d5dfd9)
+
 
 Please refer to my references earlier in case you didn't get a chance. The content was immensely helpful for me to understand OpenCV and the calibration process.
 
