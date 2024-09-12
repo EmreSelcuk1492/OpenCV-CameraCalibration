@@ -188,7 +188,7 @@ OpenCV-CameraCalibration is released under the MIT License. See the **[LICENSE](
 
 ## **Authors and Acknowledgment**
 
-OpenCV-CameraCalibration was created by **[EmreSelcuk1402](https://github.com/username)**.
+OpenCV-CameraCalibration was created by **[EmreSelcuk1492](https://github.com/username)**.
 
 Another special thanks to Z-sistem for the resource support and knowledge.
 ![image](https://github.com/user-attachments/assets/569f5931-6cbc-4ed5-b8aa-d45aa9d5dfd9)
